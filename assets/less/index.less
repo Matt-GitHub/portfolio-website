@@ -1,10 +1,15 @@
 @redText: red;
+@titleColor: orange;
 
-.header {
+#header {
     .content {
         .inner {
-            h1 {
-                color: red;
+            #mine {
+                color: @titleColor;
+
+                p {
+                    color: purple;
+                }
             }
         }
     }
@@ -13,14 +18,14 @@
 nav {
     ul {
         a {
-            background-color: blue;
+            background-color: @titleColor;
         }
     }
 }
 
 
 #intro {
-    color: red;
+    color: @titleColor;
 
     .major {
         color: @redText;
