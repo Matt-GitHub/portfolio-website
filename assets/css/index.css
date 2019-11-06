@@ -1,14 +1,8 @@
-#header .content .inner #mine {
-  color: red;
-}
-#header .content .inner #mine p {
-  color: purple;
-}
 nav ul a {
-  background-color: blue;
+  background-color: orange;
 }
 #intro {
-  color: red;
+  color: orange;
 }
 #intro .major {
   color: red;
